@@ -9,7 +9,7 @@ Keras, scipy, pillow, Tkinter
 
 
 ## How to start GUI in python
-First cd into the directory where all the files from this repository is located then run startGUI.py
+From the directory where all the files downloaded from this repository is located, run startGUI.py
 ````
 python startGUI.py
 ````
