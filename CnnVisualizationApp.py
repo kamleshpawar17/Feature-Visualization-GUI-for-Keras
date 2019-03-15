@@ -147,9 +147,7 @@ class FeatVis:
         self.inputImage = np.array(img_obj)
 
     def askopenImage(self):
-        self.imageName = tkFileDialog.askopenfilename(filetypes=(
-            ("JPEG files", "*.jpg"), ("JPEG files", "*.jpeg"), ("PNG files", "*.png"), ("TIFF files", "*.tiff"),
-            ("TIFF files", "*.tif"), ("BMP files", "*.bmp")))
+        self.imageName = tkFileDialog.askopenfilename()
         if not self.imageName:
             return
         else:

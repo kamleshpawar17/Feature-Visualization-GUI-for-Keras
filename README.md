@@ -80,7 +80,7 @@ class FeatVis_child(FeatVis):
 
 #### An example of reading an image stored as a numpy array and preprocessing is demostrated below
 ````
-from FeatVis import FeatVis
+from CnnVisualizationApp import FeatVis
 import numpy as np
 
 class FeatVis_child(FeatVis):
