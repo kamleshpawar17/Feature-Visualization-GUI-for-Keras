@@ -102,7 +102,7 @@ gui()
 Save the above code as python file and run. This will instantiate a GUI that will use the **imageReader()** defined above to read the input image.
 
 ## Additional Notes
-This GUI requires a trained keras model file in *.hdf5 or *.h5 format.
+This GUI takes a keras model file in *.hdf5 or *.h5 format as input.
 
 For the pretrained models from keras application you can generate keras model as:
 
